@@ -8,3 +8,16 @@
 10.0.0.6 Private IP
 10.0.0.7 Web-3 Private IP
 101.173.130.159 IP
+curl https://gist.githubusercontent.com/slape/5cc350109583af6cbe577bbcc0710c93/raw/eca603b72586fbe148c11f9c87bf96a63cb25760/Filebeat >> /etc/ansible/files/filebeat-config.yml
+git clone https://github.com/your-username/yourlink.git
+git clone https://github.com/Manykeystrikes/https://github.com/Manykeystrikes/GitHubexpression.git
+
+curl -L -O https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-7.6.2-linux-x86_64.tar.gz
+tar xzvf filebeat-7.6.2-linux-x86_64.tar.gz
+
+tar xzvf filebeat-7.6.2-linux-x86_64.tar.gz
+
+curl -L -O https://artifacts.elastic.co/downloads/beats/metricbeat/metricbeat-7.6.2-linux-x86_64.tar.gz
+tar xzvf metricbeat-7.6.2-linux-x86_64.tar.gz
+
+tar xzvf metricbeat-7.6.2-linux-x86_64.tar.gz
