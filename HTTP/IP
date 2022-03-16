@@ -1,0 +1,10 @@
+10.1.0.4 Private IP
+20.70.22.128 Elk-Server
+40.127.67.5 Jump-Box-Provisioner
+10.0.0.4 Private IP
+52.255.47.37 Web-1
+10.0.0.5 Private IP
+52.255.47.37 Web-2
+10.0.0.6 Private IP
+10.0.0.7 Web-3 Private IP
+101.173.130.159 IP
