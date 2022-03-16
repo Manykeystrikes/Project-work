@@ -1,0 +1,5 @@
+
+sudo docker start boring_murdock
+sudo docker attach boring_murdock
+ssh azdmin@40.127.67.5
+mkdir files | mv filebeat-config.yml files
