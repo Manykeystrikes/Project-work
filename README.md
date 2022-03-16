@@ -7,3 +7,4 @@ https://github.com/Manykeystrikes/GitHubexpression/blob/main/Ansible%20command%2
 https://github.com/Manykeystrikes/GitHubexpression/blob/main/VM%20Network%20Flowchart.html
 https://github.com/Manykeystrikes/GitHubexpression/blob/main/Scripting%20yml
 https://github.com/Manykeystrikes/GitHubexpression/blob/main/VM%20Network%20Flowchart.html
+https://github.com/Manykeystrikes/GitHubexpression/blob/main/%23%23%20Automated%20ELK%20Stack%20Deployment.md
