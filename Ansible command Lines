@@ -1,2 +1,9 @@
 nano /etc/ansible/hosts
-
+ansible-playbook filebeat-playbook.yml
+ansible elk -m command -a "sudo docker ps"
+ansible-playbook metricbeat-playbook.yml
+nano /etc/ansible/files/metricbeat-config.yml
+ansible-playbook filebeat-playbook.yml
+nano /etc/ansible/elk.yml
+cd /etc/ansible/
+ansible-playbook elk.yml
