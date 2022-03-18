@@ -13,7 +13,7 @@ Answer the following questions about the HTTP request and response process.
 
 	1. What type of architecture does the HTTP request and response process occur in?
         
-    - for you and me
+    - for you and me to you and me 
 
 	2. What are the different parts of an HTTP request?
 	3. Which part of an HTTP request is optional?
