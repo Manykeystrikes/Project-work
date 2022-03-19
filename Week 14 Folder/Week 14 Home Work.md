@@ -9,11 +9,16 @@ In this homework, we will review the many of the concepts and tools covered in t
 Questions
 Before you work through the questions below, please create a new file and record your answers there. This will be your homework deliverable.
 HTTP Requests and Responses
-Answer the following questions about the HTTP request and response process.
+Answer the following questions about the HTTP request and response procC:\Users\adbar\Documents\Education\Monash\Images\OSI Model.pngess.
 
 	1. What type of architecture does the HTTP request and response process occur in?
         
-    - for you and me to you and me 
+    - [https://docs.google.com/document/d/1_CouPO9G74F24d45nyh3h__55R8I4uGD72N1U6lPyTk/edit!]([]./pictures/image.png)
+
+![alt text for screen readers](/Project-work/Week 14 Folder/OSI Modle.png "Text to show on mouseover")
+
+
+
 
 	2. What are the different parts of an HTTP request?
 	3. Which part of an HTTP request is optional?
