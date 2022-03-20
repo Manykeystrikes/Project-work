@@ -15,7 +15,7 @@ Answer the following questions about the HTTP request and response procC:\Users\
         
   ![](Images/OSI Model.png)
 
-<Img scr= "Images/OSI Model.png>"
+<Img scr="Images/OSI Model.png">
 
 
 
