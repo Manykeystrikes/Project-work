@@ -19,18 +19,31 @@ Layer 7 is where the HTTP request occures
 
 	2. What are the different parts of an HTTP request?
 		- There is a a request line> the name of the recource.
-		- within the request line query parameter 
-
+		- within the request line query parameter which sends data to the servers
+		- The third part of the HTTP request is the Header this contains addtional details	- authentication 
+									- users resources 
+		- The fouth part of the request relates to the space between requests is called White Space
 
 	3. Which part of an HTTP request is optional?
+		- The body of the request is optional as long as the header and the and the status line is relevant the message will be competed 
+
 	4. What are the three parts of an HTTP response?
+
+		- the three parts to the HTTP respones are
+			-Status
+			-Header
+			-Body
+
 	5. Which number class of status codes represents errors?
+
+		
 	6. What are the two most common request methods that a security professional will encounter?
 	7. Which type of HTTP request method is used for sending data?
 	8. Which part of an HTTP request contains the data being sent to the server?
 	9. In which part of an HTTP response does the browser receive the web code to generate and style a web page?
 	
-	<img src="Images/Status Codes.png">
+	
+<img src="Images/Status Codes.png">
 	
 	
 	
