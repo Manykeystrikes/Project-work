@@ -15,8 +15,13 @@ Answer the following questions about the HTTP request and response procC:\Users\
         
 <img src="Images/OSI Model.png">
 
+Layer 7 is where the HTTP request occures
 
 	2. What are the different parts of an HTTP request?
+		- There is a a request line> the name of the recource.
+		- within the request line query parameter 
+
+
 	3. Which part of an HTTP request is optional?
 	4. What are the three parts of an HTTP response?
 	5. Which number class of status codes represents errors?
