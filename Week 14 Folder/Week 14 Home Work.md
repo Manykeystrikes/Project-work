@@ -17,7 +17,7 @@ Answer the following questions about the HTTP request and response procC:\Users\
 
 ![alt text for screen readers](/Project-work/Week 14 Folder/OSI Modle.png "Text to show on mouseover")
 
-
+![](/Images/OSI Model.png)
 
 
 	2. What are the different parts of an HTTP request?
