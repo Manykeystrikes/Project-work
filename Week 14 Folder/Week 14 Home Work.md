@@ -30,7 +30,7 @@ Layer 7 is where the HTTP request occures
 	8. Which part of an HTTP request contains the data being sent to the server?
 	9. In which part of an HTTP response does the browser receive the web code to generate and style a web page?
 	
-	<img src="Images/Status Codes.png">
+<img src="Images/Status Codes.png">
 	
 	
 	
