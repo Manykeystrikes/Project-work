@@ -29,6 +29,12 @@ Layer 7 is where the HTTP request occures
 	7. Which type of HTTP request method is used for sending data?
 	8. Which part of an HTTP request contains the data being sent to the server?
 	9. In which part of an HTTP response does the browser receive the web code to generate and style a web page?
+	
+	<img src="Images/Status Codes.png">
+	
+	
+	
+	
 Using curl
 Answer the following questions about curl:
 	10. What are the advantages of using curl over the browser?
