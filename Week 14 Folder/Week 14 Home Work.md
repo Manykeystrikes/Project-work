@@ -13,11 +13,12 @@ Answer the following questions about the HTTP request and response procC:\Users\
 
 	1. What type of architecture does the HTTP request and response process occur in?
         
-    - [https://docs.google.com/document/d/1_CouPO9G74F24d45nyh3h__55R8I4uGD72N1U6lPyTk/edit!]([]./pictures/image.png)
+  ![](/Images/OSI Model.png)
+  
 
-![alt text for screen readers](/Project-work/Week 14 Folder/OSI Modle.png "Text to show on mouseover")
 
-![](/Images/OSI Model.png)
+
+
 
 
 	2. What are the different parts of an HTTP request?
