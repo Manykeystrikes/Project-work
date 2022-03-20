@@ -13,9 +13,9 @@ Answer the following questions about the HTTP request and response procC:\Users\
 
 	1. What type of architecture does the HTTP request and response process occur in?
         
-  ![](Images/OSI Model.png)
 
-<Img scr="Images/OSI Model.png">
+
+<img scr="Images/OSI Model.png">
 
 
 
