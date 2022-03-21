@@ -36,26 +36,53 @@ Layer 7 is where the HTTP request occures
 
 	5. Which number class of status codes represents errors?
 
-		
-	6. What are the two most common request methods that a security professional will encounter?
-	7. Which type of HTTP request method is used for sending data?
-	8. Which part of an HTTP request contains the data being sent to the server?
-	9. In which part of an HTTP response does the browser receive the web code to generate and style a web page?
-	
-	
-	
+		- the class of status codes for errors relate to 400-499	
+		-eg invalid text request
+		-403 = server is refusing to give requested resources
 <img src="Images/Status Codes.png">
 	
 	
 	
 	
+	
+	
+	6. What are the two most common request methods that a security professional will encounter?
+		- Are GET to request the data 
+		- Post to submit the data
+
+
+	7. Which type of HTTP request method is used for sending data?
+		- The Post is used to send and update information to the server.
+	8. Which part of an HTTP request contains the data being sent to the server?
+		- The Post
+	9. In which part of an HTTP response does the browser receive the web code to generate and style a web page?
+
+		-at the POST and the PUT
+	
+		
 Using curl
 Answer the following questions about curl:
 	10. What are the advantages of using curl over the browser?
+		- flexiblity us for authentication tasks
+
 	11. Which curl option is used to change the request method?
+		- -D, --dump-header <filename> Write the received headers to <filename>
+
 	12. Which curl option is used to set request headers?
+		- curl --head (HTTPS:// ____)
+		-	
+
 	13. Which curl option is used to view the response header?
+
+			- curl --head https://< path>
+
 	14. Which request method might an attacker use to figure out which HTTP requests an HTTP server will accept?
+		- 
+		
+
+
+
+
 Sessions and Cookies
 Recall that HTTP servers need to be able to recognize clients from one another. They do this through sessions and cookies.
 Answer the following questions about sessions and cookies:
