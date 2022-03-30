@@ -66,36 +66,43 @@ Answer the following questions about curl:
 		- flexiblity us for authentication tasks
 
 	11. Which curl option is used to change the request method?
-		- -D, --dump-header <filename> Write the received headers to <filename>
+		- -X, --dump-header <filename> Write the received headers to <filename>
 
 	12. Which curl option is used to set request headers?
-		- curl --head (HTTPS:// ____)
+		- curl  -d (HTTPS:// ____)
 		-	
 
 	13. Which curl option is used to view the response header?
 
-			- curl --head https://< path>
+			- curl -v -head https://< path>
 
 	14. Which request method might an attacker use to figure out which HTTP requests an HTTP server will accept?
-		- 
-		
-
-
+		- By sending paritial requests to between the front end and back end of the request this is called a smuggling attacke / man in the middle and cross scripting.
 
 
 Sessions and Cookies
 Recall that HTTP servers need to be able to recognize clients from one another. They do this through sessions and cookies.
 Answer the following questions about sessions and cookies:
+	
 	15. Which response header sends a cookie to the client?
-HTTP/1.1200OKContent-type:text/html
-Set-Cookie:cart=Bob
+
+HTTP/1.1200OKContent-type:text/html 
+
+Set-Cookie:cart=Bob-  the pattern is used to set the string to store data in the client.
+
 	16. Which request header will continue the client's session?
+
+		- the crul -i command will show the 
+			HTTP/1.1Host:example.com
+Accept-Encoding:gzip, deflate, br
+Connection:keep-alive
+
 GET/cartHTTP/1.1Host:www.example.org
 Cookie:cart=Bob
 Example HTTP Requests and Responses
 Look through the following example HTTP request and response and answer the following questions:
 HTTP Request
-POST/login.phpHTTP/1.1Host:example.com
+POST/login.php HTTP/1.1Host:example.com
 Accept-Encoding:gzip, deflate, br
 Connection:keep-alive
 Content-Type:application/x-www-form-urlencoded
@@ -103,10 +110,24 @@ Content-Length:34
 Upgrade-Insecure-Requests:1
 User-Agent:Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Mobile Safari/537.36
 username=Barbara&password=password
+	
 	17. What is the request method?
+
+		- The request method uses both the GET and POST method
+		GET is used to request data and POST is used tp send data to the server 
+	
 	18. Which header expresses the client's preference for an encrypted response?
+	
+		- Upgrade-Insecure-Requests:1 - This allows a redirect to a secure version 		
+
 	19. Does the request have a user session associated with it?
+
+		- GET/cartHTTP/1.1Host:www.example.org =username=Barbara&password=password; this allows the session to store an ID.
+	
 	20. What kind of data is being sent from this request body?
+
+		- The message body is (optional) the one that carries the actual request this also includes data from the upload
+
 HTTP Response
 HTTP/1.1200OKDate:Mon, 16 Mar 2020 17:05:43 GMT
 Last-Modified:Sat, 01 Feb 2020 00:00:00 GMT
@@ -120,26 +141,69 @@ X-Content-Type:NoSniff
 X-Frame-Options:DENY
 X-XSS-Protection:1; mode=block
 [page content]
+	
 	21. What is the response status code?
+
+		-HTTP/1.1200OKDate:Mon, 16 Mar 2020 17:05:43 GMT - this is were the server understands and is accepting of the clients request. 
+		https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+	
 	22. What web server is handling this HTTP response?
+
+		- Server - Apache ; this allows for bugs issues with the server to be fixed 
+	
 	23. Does this response have a user session associated to it?
+
+		- Last-Modified:Sat, 01 Feb 2020 00:00:00 GMT & Expires:Fri, 01 May 2020 00:00:00 GMT  and the Set-Cookie:SessionID=5 allows the request history to be stored 
+	
 	24. What kind of content is likely to be in the [page content] response body?
+
+		- X-Content-Type:NoSniff; this allows content to be read but not changed this stops non executable content becoming executable.
+	
 	25. If your class covered security headers, what security request headers have been included?
+
+		- HTTPS - Hypertext Transfer Protocol Secure 
+		- 
+
 Monoliths and Microservices
 Answer the following questions about monoliths and microservices:
+	
 	26. What are the individual components of microservices called?
+
+		- Browser > Web (Business front)>Inventory>Product database>Browser
+		Jump Box
+		Ansible server
+		DVWA
+		Docker Image
+	
 	27. What is a service that writes to a database and communicates to other services?
+
+		-An API; Application Programming Interface
+	
 	28. What type of underlying technology allows for microservices to become scalable and have redundancy?
+
+		- The Container; allows scalabity dependent on  need.
+
 Deploying and Testing a Container Set
 Answer the following questions about multi-container deployment:
+	
 	29. What tool can be used to deploy multiple containers at once?
+
+		- Docker Compose use YAML files to configure applications> allows automation.
+	
 	30. What kind of file format is required for us to deploy a container set?
+
+		-
+
 Databases
+
 	31. Which type of SQL query would we use to see all of the information within a table called customers?
+
 	32. Which type of SQL query would we use to enter new data into a table? (You don't need a full query, just the first part of the statement.)
+
 	33. Why would we never run DELETE FROM <table-name>; by itself?
 
 Bonus Challenge Overview: The Cookie Jar
+
 For this challenge, you'll once again be using curl, but this time to manage and swap sessions.
 ⚠️ Heads Up: You'll need to have WordPress set up from the Swapping Sessions activity from Day 1 of this unit. If you have not done it or it is improperly set up, please refer to the Day 1 student guide and the Swapping Sessions activity file.
 If you recall, on Day 1 of this unit you used Google Chrome's Cookie-Editor extension to swap sessions and cookies. For this homework challenge, we'll be using the command-line tool curl to practice swapping cookie and sessions within the WordPress app.
