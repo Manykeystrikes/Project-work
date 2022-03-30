@@ -192,15 +192,21 @@ Answer the following questions about multi-container deployment:
 	
 	30. What kind of file format is required for us to deploy a container set?
 
-		-
+		-YAML files to configure applications
 
 Databases
 
 	31. Which type of SQL query would we use to see all of the information within a table called customers?
 
+	-  SELECT * FROM costumers data WHERE Customer = 'Customer Information';
+		
 	32. Which type of SQL query would we use to enter new data into a table? (You don't need a full query, just the first part of the statement.)
 
+		- INSERT INTO ()  
+
 	33. Why would we never run DELETE FROM <table-name>; by itself?
+
+		- You could be deleteing ID that is relevant to the SQL request.
 
 Bonus Challenge Overview: The Cookie Jar
 
