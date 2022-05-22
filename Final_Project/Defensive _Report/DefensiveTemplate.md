@@ -12,8 +12,8 @@ _TODO: Fill out the information below._
 
 The following machines were identified on the network:
 - Name of VM 1
-  - **Operating System**:
-  - **Purpose**:
+  - **Operating System**:Target 1
+  - **Purpose**:Test for vunrabitiied 
   - **IP Address**:
 - Name of VM 2
   - **Operating System**:
