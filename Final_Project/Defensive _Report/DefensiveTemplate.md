@@ -11,22 +11,24 @@
 _TODO: Fill out the information below._
 
 The following machines were identified on the network:
-- Name of VM 1
+- Target 1
   - **Operating System**:Linux
-  - **Purpose**:Test for vunrabitiied 
+  - **Purpose**:Test for vulnerability
   - **IP Address**:192.168.1.110
 
-- Name of VM 2
-  - **Operating System**:
-  - **Purpose**:
-  - **IP Address**:
-  
-     
+- Target 2
+  - **Operating System**:Linux 
+  - **Purpose**:Linux Test vulnerabilty
+  - **IP Address**:192.168.115
 
-  - **Operating System**:Linux
-  - **Purpose**:Test for vunrabitiied 
-  - **IP Address**:192.168.1.110
-
+ - Kail 3
+    - **Operating System**:Linux
+    - **Purpose**:Test for vunrabitiied 
+    - **IP Address**:192.168.1.90
+- Elk 
+    - **Operating System**:Linux
+    - **Purpose**:Test for vunrabitiied 
+    - **IP Address**:192.168.1.100
 ### Description of Targets
 _TODO: Answer the questions below._
 
