@@ -12,14 +12,20 @@ _TODO: Fill out the information below._
 
 The following machines were identified on the network:
 - Name of VM 1
-  - **Operating System**:Target 1
+  - **Operating System**:Linux
   - **Purpose**:Test for vunrabitiied 
-  - **IP Address**:
+  - **IP Address**:192.168.1.110
+
 - Name of VM 2
   - **Operating System**:
   - **Purpose**:
   - **IP Address**:
-- Etc.
+  
+     
+
+  - **Operating System**:Linux
+  - **Purpose**:Test for vunrabitiied 
+  - **IP Address**:192.168.1.110
 
 ### Description of Targets
 _TODO: Answer the questions below._
