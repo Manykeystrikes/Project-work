@@ -52,14 +52,16 @@ _TODO: Fill out the details below. Include screenshots where possible._
 
 The Red Team was able to penetrate `Target 1` and retrieve the following confidential data:
 - Target 1
-  - `flag1.txt`: _TODO: Insert `flag1.txt` hash value_
+  - `flag1.txt`:Refer to screen shot
 
 <img src="Images/Flag1_and_Flag2.png">
 
     - **Exploit Used**
-      - _TODO: Identify the exploit used_
+      - _Command Line_
       - _grep -ER *flags*
-  - `flag2.txt`: Refer to screen shoot
+
+  - `flag2.txt`: Refer to screen shot
     - **Exploit Used**
-      - _TODO: Identify the exploit used
+<img src="Images/MySql_Flag2.png">
+      - _grep -ER *flags*
       - _cat /var/www/flag2.txt_
