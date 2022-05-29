@@ -6,6 +6,12 @@ _TODO_ Complete this report as you complete the Network Activity on Day 3 of cla
 You must inspect your traffic capture to answer the following questions:
 
 1. What is the domain name of the users' custom site?
+
+
+<img src="Images/Custom_site.png>
+
+
+
 2. What is the IP address of the Domain Controller (DC) of the AD network?
 3. What is the name of the malware downloaded to the 10.6.12.203 machine?
    - Once you have found the file, export it to your Kali machine's desktop.
