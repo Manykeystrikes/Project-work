@@ -1,11 +1,11 @@
 # Network Forensic Analysis Report
 
-_TODO_ Complete this report as you complete the Network Activity on Day 3 of class.
+
 
 ## Time Thieves 
-You must inspect your traffic capture to answer the following questions:
+ Inspectation of traffic capture 
 
-1. What is the domain name of the users' custom site?
+1. The domain name of the users' custom site.
 The domain is frank-n-ted
 
 
@@ -13,20 +13,21 @@ The domain is frank-n-ted
 
 
 
-2. What is the IP address of the Domain Controller (DC) of the AD network?
+2. The IP address of the Domain Controller (DC) of the AD network.
 
         - IP = 10.6.12.12
 
-3. What is the name of the malware downloaded to the 10.6.12.203 machine?
+3.The name of the malware downloaded to the 10.6.12.203 machine.
         -   Malware File = June_11
 
 <img src="Images/Malware_June11.png">
-Shows the GET header  request of the file
+
+        - Shows the GET header  request of the file
 
 <img src="Images/TCP_File_GETHeader.png">
 
    
-4. Result of file, exported  to Kali machine's desktop.
+4. Results of file, exported  to Kali machine's desktop.
 
 
 
