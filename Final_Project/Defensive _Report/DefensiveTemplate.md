@@ -68,8 +68,8 @@ Alert 1 is implemented as follows:
 Alert 2 is implemented as follows:
   - **Metric**: Packetbeat
   - **Threshold**: 3500
-  - **Vulnerability Mitigated**: TODO
-  - **Reliability**: The alert is recording a high number of counts related to HTTP requests TODO: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
+  - **Vulnerability Mitigated**: Monitor the platforms that are linked to the system and also disable optimisations such as the importance of HTTP caching and application cache.
+  - **Reliability**: The alert is recording a high number of counts related to HTTP requests the timing of the attackes coinside with other data captured at that time. Therefore the data has a high reliability
 
 <img src= "Images/HTTP_Request_Size.png">
 
