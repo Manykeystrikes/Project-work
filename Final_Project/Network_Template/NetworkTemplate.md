@@ -6,16 +6,33 @@ _TODO_ Complete this report as you complete the Network Activity on Day 3 of cla
 You must inspect your traffic capture to answer the following questions:
 
 1. What is the domain name of the users' custom site?
+The domain is frank-n-ted
 
 
-<img src="Images/Custom_site.png>
+<img src="Images/Custom_site.png">
 
 
 
 2. What is the IP address of the Domain Controller (DC) of the AD network?
+
+        - IP = 10.6.12.12
+
 3. What is the name of the malware downloaded to the 10.6.12.203 machine?
+        -   Malware File = June_11
+
+<img src="Images/Malware_June11.png">
+Shows the GET header  request of the file
+
+<img src="Images/TCP_File_GETHeader.png">
+
    - Once you have found the file, export it to your Kali machine's desktop.
+
+
 4. Upload the file to [VirusTotal.com](https://www.virustotal.com/gui/). 
+
+<img src="Images/VirusTotal_Upload.png">
+
+
 5. What kind of malware is this classified as?
 
 ---
