@@ -51,7 +51,11 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
 
 <img src="Images/Flag1_and_Flag2.png">
 
+<img src="Images/HTTP_Wordpress.png">
+
+
     - **Exploit Used**
+      - _HTTP Script
       - _Command Line_
       - _grep -ER *flags*
 
