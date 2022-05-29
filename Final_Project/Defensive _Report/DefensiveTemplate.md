@@ -54,7 +54,8 @@ Traffic to these services should be carefully monitored. To this end, we have im
 Excessive HTTP Erros
 
 
-Excessive HTTP Erros is implemented as follows:
+Excessive HTTP Erros 
+Alert 1 is implemented as follows:
   - **Metric**: Packetbeat
   - **Threshold**: 400
   - **Vulnerability Mitigated**:Degsin vulnerablities reduced by patches or by hiding the ports that are susceptiable
@@ -68,7 +69,7 @@ Alert 2 is implemented as follows:
   - **Metric**: Packetbeat
   - **Threshold**: 3500
   - **Vulnerability Mitigated**: TODO
-  - **Reliability**: TODO: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
+  - **Reliability**: The alert is recording a high number of counts related to HTTP requests TODO: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
 
 <img src= "Images/HTTP_Request_Size.png">
 
