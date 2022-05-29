@@ -80,6 +80,8 @@ Alert 3 is implemented as follows:
   - **Vulnerability Mitigated**: TODO
   - **Reliability**: TODO: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
 
+<img src= "Images/CPU_Usage_Monitor.png">
+
 _TODO Note: Explain at least 3 alerts. Add more if time allows._
 
 ### Suggestions for Going Further (Optional)
