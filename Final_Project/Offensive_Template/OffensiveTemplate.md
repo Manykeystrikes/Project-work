@@ -17,9 +17,6 @@ $ nmap -vv -Pn -O 192.168.1.0/24
 
 
 
-
-
-
 <img src="Images/Scan_Ouput_POE_110.png">
 
 
