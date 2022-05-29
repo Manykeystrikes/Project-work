@@ -54,7 +54,7 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
 - Target 1
   - `flag1.txt`: _TODO: Insert `flag1.txt` hash value_
 
-
+<img src="Images/Flag1_and_Flag2.png">
 
     - **Exploit Used**
       - _TODO: Identify the exploit used_
