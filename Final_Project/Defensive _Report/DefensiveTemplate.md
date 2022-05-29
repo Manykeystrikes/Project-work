@@ -73,28 +73,15 @@ Alert 2 is implemented as follows:
 
 <img src= "Images/HTTP_Request_Size.png">
 
-#### Name of Alert 3
+#### CPU Usage Monitor
 Alert 3 is implemented as follows:
-  - **Metric**: TODO
-  - **Threshold**: TODO
-  - **Vulnerability Mitigated**: TODO
-  - **Reliability**: TODO: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
+  - **Metric**: Metricbeat
+  - **Threshold**: 1 record ever mintue
+  - **Vulnerability Mitigated**: If there is high CPU useage, the impact could be realted to load balancer performamce this then indicates the again there is a correlation to HTTP request size. To mitigate CPU vulnerabilities, requires updates to operatiing systems and other systems for  software to firmware updates.
+  - **Reliability**: By running the alert at 1 min intervals allows a link to servers there will be some false/positive as alert triggers will generate when there is limited time allocation to the duration of the data capture.
 
 <img src= "Images/CPU_Usage_Monitor.png">
 
 _TODO Note: Explain at least 3 alerts. Add more if time allows._
 
-### Suggestions for Going Further (Optional)
-_TODO_: 
-- Each alert above pertains to a specific vulnerability/exploit. Recall that alerts only detect malicious behavior, but do not stop it. For each vulnerability/exploit identified by the alerts above, suggest a patch. E.g., implementing a blocklist is an effective tactic against brute-force attacks. It is not necessary to explain _how_ to implement each patch.
-
-The logs and alerts generated during the assessment suggest that this network is susceptible to several active threats, identified by the alerts above. In addition to watching for occurrences of such threats, the network should be hardened against them. The Blue Team suggests that IT implement the fixes below to protect the network:
-- Vulnerability 1
-  - **Patch**: TODO: E.g., _install `special-security-package` with `apt-get`_
-  - **Why It Works**: TODO: E.g., _`special-security-package` scans the system for viruses every day_
-- Vulnerability 2
-  - **Patch**: TODO: E.g., _install `special-security-package` with `apt-get`_
-  - **Why It Works**: TODO: E.g., _`special-security-package` scans the system for viruses every day_
-- Vulnerability 3
-  - **Patch**: TODO: E.g., _install `special-security-package` with `apt-get`_
-  - **Why It Works**: TODO: E.g., _`special-security-package` scans the system for viruses every day_
+#
