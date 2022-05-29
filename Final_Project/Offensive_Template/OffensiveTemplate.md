@@ -12,10 +12,16 @@ Nmap scan results for each machine reveal the below services and OS details:
 
 ```bash
 $ nmap -vv -Pn -O 192.168.1.0/24
-
+```
 <img src="Images/Scan_Ouput_POE.png">
 
-```
+
+
+
+
+
+<img src="Images/Scan_Ouput_POE_110.png">
+
 
 This scan identifies the services below as potential points of entry:
 - Target 1
