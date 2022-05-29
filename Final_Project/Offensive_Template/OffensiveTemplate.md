@@ -65,5 +65,7 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
       -Command line from root
 
 <img src="Images/MySql_Flag2.png">
+
+
       - _grep -ER *flags*
       - _cat /var/www/flag2.txt_
