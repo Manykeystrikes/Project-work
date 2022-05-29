@@ -25,36 +25,68 @@ Shows the GET header  request of the file
 
 <img src="Images/TCP_File_GETHeader.png">
 
-   - Once you have found the file, export it to your Kali machine's desktop.
+   
+4. Result of file, exported  to Kali machine's desktop.
 
 
-4. Upload the file to [VirusTotal.com](https://www.virustotal.com/gui/). 
 
 <img src="Images/VirusTotal_Upload.png">
 
 
-5. What kind of malware is this classified as?
+5. Kind of malware is this classified as.
+
+        - The virus indicated from the file upload = Trojan.
 
 ---
 
 ## Vulnerable Windows Machine
 
-1. Find the following information about the infected Windows machine:
-    - Host name
-    - IP address
-    - MAC address
-    
-2. What is the username of the Windows user whose computer is infected?
-3. What are the IP addresses used in the actual infection traffic?
-4. As a bonus, retrieve the desktop background of the Windows host.
+1. The following information relates to the infected Windows machine:
+    - Host name = Rotterdam_PC
+    - IP address = 172.16.4.205
+    - MAC address =00:59:07:d0:63:a4
+
+<img src="Images/HOST_IP_MACadd.png">
+
+
+2. The username of the Windows user of infected computer.
+
+        - Name = matthijs.devries
+
+
+<img src="Images/Comp_Infectedname.png">
+
+
+
+
+
+3. The IP addresses used in infection traffic.
+
+        - 172.16.4.205 - 185.243.115.84
+        - 166.62.111.64 - 172.16.4.205
+
+
+<img src="Images/IPs_Used.png">
+
+
+
+
+
 
 ---
 
 ## Illegal Downloads
 
-1. Find the following information about the machine with IP address `10.0.0.201`:
-    - MAC address
-    - Windows username
-    - Computer host name
+1. The following information relates to machine with IP address `10.0.0.201`:
+    - MAC address = 00:16:17:18:66:c8
+    - Windows username = blanco-destops
+    - Computer host name = BLANCO-DESKTOPS
 
-2. Which torrent file did the user download?
+<img src="Images/IP_10.0.0.201.png">
+
+2. Torrent file, user download
+
+    - File downloaded = Betty_Boop_Rhythm
+
+<img src="Images/File_DL.png">
+
