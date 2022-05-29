@@ -27,12 +27,23 @@ The following machines were identified on the network:
     - **IP Address**:192.168.1.90
 - Elk 
     - **Operating System**:Linux
-    - **Purpose**:Test for vunrabitiied 
+    - **Purpose**:Server for for the different Operating Systems
     - **IP Address**:192.168.1.100
+
+- Capstone 
+    - **Operating System**:Linux
+    - **Purpose**:To run alerts
+    - **IP Address**:192.168.1.105
+
+- Host
+    - **Operating System**:Azure
+    - **Purpose**:To run and store operating systems
+    - **IP Address**:192.168.1.1
+
 ### Description of Targets
 _TODO: Answer the questions below._
 
-The target of this attack was: `Target 1` (TODO: IP Address).
+The target of this attack was: IP 192.168.1.110
 
 Target 1 is an Apache web server and has SSH enabled, so ports 80 and 22 are possible ports of entry for attackers. As such, the following alerts have been implemented:
 
@@ -40,14 +51,17 @@ Target 1 is an Apache web server and has SSH enabled, so ports 80 and 22 are pos
 
 Traffic to these services should be carefully monitored. To this end, we have implemented the alerts below:
 
-#### Name of Alert 1
-_TODO: Replace `Alert 1` with the name of the alert._
+Excessive HTTP Erros
 
-Alert 1 is implemented as follows:
-  - **Metric**: TODO
-  - **Threshold**: TODO
-  - **Vulnerability Mitigated**: TODO
-  - **Reliability**: TODO: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
+
+Excessive HTTP Erros is implemented as follows:
+  - **Metric**: Packetbeat
+  - **Threshold**: 400
+  - **Vulnerability Mitigated**:Degsin vulnerablities reduced by patches or by hiding the ports that are susceptiable
+  - **Reliability**: This alert is indicating a pickup in HTTP requests
+
+<img src="Images/Excessive_HTTP_Errors.png">
+
 
 #### Name of Alert 2
 Alert 2 is implemented as follows:
