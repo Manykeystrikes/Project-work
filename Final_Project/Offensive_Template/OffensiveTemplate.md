@@ -58,8 +58,8 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
 
     - **Exploit Used**
       - _TODO: Identify the exploit used_
-      - _TODO: Include the command run_
-  - `flag2.txt`: _TODO: Insert `flag2.txt` hash value_
+      - _grep -ER *flags*
+  - `flag2.txt`: Refer to screen shoot
     - **Exploit Used**
-      - _TODO: Identify the exploit used_
-      - _TODO: Include the command run_
+      - _TODO: Identify the exploit used
+      - _cat /var/www/flag2.txt_
