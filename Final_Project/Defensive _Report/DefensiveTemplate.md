@@ -63,12 +63,14 @@ Excessive HTTP Erros is implemented as follows:
 <img src="Images/Excessive_HTTP_Errors.png">
 
 
-#### Name of Alert 2
+#### HTTP Rerquest Size Monitor
 Alert 2 is implemented as follows:
-  - **Metric**: TODO
-  - **Threshold**: TODO
+  - **Metric**: Packetbeat
+  - **Threshold**: 3500
   - **Vulnerability Mitigated**: TODO
   - **Reliability**: TODO: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
+
+<img src= "Images/HTTP_Request_Size.png">
 
 #### Name of Alert 3
 Alert 3 is implemented as follows:
