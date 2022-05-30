@@ -43,7 +43,7 @@ _Scan results to prove the identified vulnerabilities._
 <img src="Images/Scan_Vulner_Identified.png">
 
 ### Exploitation
-_TODO: Fill out the details below. Include screenshots where possible._
+
 
 The Red Team was able to penetrate `Target 1` and retrieve the following confidential data:
 - Target 1
