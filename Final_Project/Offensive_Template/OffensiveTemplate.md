@@ -27,7 +27,6 @@ This scan identifies the services below as potential points of entry:
       -Port 139 netbios-ds
       -Port 445 microsoft
 
-_TODO: Fill out the list below. Include severity, and CVE numbers, if possible.
 The following vulnerabilities were identified on each target:
 - Target 1 IP 192.168.1.110
   - List of Ccitical vulnerabilities
