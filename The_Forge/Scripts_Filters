@@ -1,0 +1,3 @@
+
+#action counts the number in each category
+sourcetype="fraud_detection.csv" | top category
